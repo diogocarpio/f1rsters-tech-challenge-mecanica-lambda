@@ -1,0 +1,15 @@
+# Copie este arquivo para terraform.tfvars e preencha os valores
+
+aws_region   = "sa-east-1"
+project_name = "f1rsters-tech-challenge-mecanica"
+environment  = "dev"
+
+lambda_artifacts_bucket = "f1rsters-tech-challenge-lambda-artifacts"
+lambda_auth_s3_key      = "auth-function.jar"
+
+# Devem ser os MESMOS valores usados no repo terraform-bd
+db_name     = "oficina"
+db_username = "oficinauser"
+db_password = "your_secure_password_here"
+
+jwt_secret = "your_jwt_secret_base64_encoded"
