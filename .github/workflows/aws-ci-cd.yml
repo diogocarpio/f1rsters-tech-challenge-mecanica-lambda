@@ -6,6 +6,9 @@
         - main
         - homologacao
         - develop
+        - feature/diogo
+        - feature/rodrigo
+        - feature/alexandra
 
     pull_request:
       branches:
