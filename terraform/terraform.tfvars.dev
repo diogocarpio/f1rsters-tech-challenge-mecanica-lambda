@@ -1,0 +1,10 @@
+aws_region   = "sa-east-1"
+project_name = "f1rsters-tech-challenge-mecanica"
+environment  = "dev"
+
+lambda_artifacts_bucket = "f1rsters-tech-challenge-lambda-artifacts"
+lambda_auth_s3_key      = "auth-function.jar"
+
+db_name     = "oficina"
+db_username = "oficinauser"
+# db_password e jwt_secret sao carregados dos GitHub Secrets: DB_PASSWORD e JWT_SECRET
